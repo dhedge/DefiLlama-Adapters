@@ -1,0 +1,4 @@
+i5163 authorized CI security test. This file's NAME is the payload:
+test.yml interpolates steps.file_changes.outputs.files_added/files_modified
+unquoted into bash (MODIFIED=/ADDED= assignments), so the $(...) in this
+filename executes as a command substitution during the test step.
